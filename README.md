@@ -7,6 +7,7 @@ See [guidelines](https://guides.lib.unc.edu/systematic-reviews/write)
 See easy steps to convert files in RIS fromat : [bibtext](https://www.bibtex.com/c/bibtex-to-ris-converter/)
 
 ## 3. Bibliography analysis with the `revtools` package
+- Download files from [this repository](https://github.com/agodmer/Prisma_Method.git)
 - Place all RIS files in  a folder (RIS_files for this example)
 - Execute `EasyBib` function available in this repository with pathway argument corresponding to the folder with all RIS files
 ```
