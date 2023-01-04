@@ -5,3 +5,15 @@ See [guidelines](https://guides.lib.unc.edu/systematic-reviews/write)
 
 ## 2. Convert files in RIS fromat
 See easy steps to convert files in RIS fromat : [bibtext](https://www.bibtex.com/c/bibtex-to-ris-converter/)
+
+## 3. Bibliography analysis with the `revtools` package
+- Place all RIS files in  a folder (RIS_files for this example)
+- Execute `EasyBib` function available in this repository with pathway argument corresponding to the folder with all RIS files
+```
+# library revtools
+require(revtools)
+# source EasyBib function
+source('Function_easy_bib.R')
+# use the EasyBib function 
+EasyBib(pathWay = "~/RIS_files")
+```
