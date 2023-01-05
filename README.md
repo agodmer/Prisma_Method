@@ -1,12 +1,12 @@
 # PRISMA Method
 
-This tutorial will help to do a literature review using the PRISMA method with the R function `EasyBib` and the R package revtools. The `EasyBib` function allows you to observe the number of references among several bibliographic files (in .ris format) and to eliminate duplicates. Abstracts can be viewed for selection or exclusion with the `screen_abstracts` function of the `revtools` package directly included in the `EasyBib` function. Below are some tools and information :
+This tutorial will help to do a literature review using the PRISMA method with the R function `EasyBib` and the R package `revtools`[1] [2]. The `EasyBib` function allows you to observe the number of references among several bibliographic files (in .ris format) and to eliminate duplicates. Abstracts can be viewed for selection or exclusion with the `screen_abstracts` function of the `revtools` package directly included in the `EasyBib` function. Below are some tools and information :
 
 ## 1. Guidelines of PRISMA
 See [guidelines](https://guides.lib.unc.edu/systematic-reviews/write)
 
 ## 2. Convert files in RIS fromat
-See easy steps to convert files in RIS fromat : [bibtext](https://www.bibtex.com/c/bibtex-to-ris-converter/)
+See easy steps to convert files in RIS fromat : [bibtext](https://www.bibtex.com/c/bibtex-to-ris-converter/) [3]
 
 ## 3. Bibliography analysis with the `revtools` package and `EasyBib` function
 - Place all .ris files in  a folder (called RIS_files for this example with 3 .ris files at this [link](https://github.com/agodmer/Prisma_Method/tree/main/RIS_files))
