@@ -11,7 +11,8 @@ See easy steps to convert files in RIS fromat : [bibtext](https://www.bibtex.com
 - Execute `EasyBib` function with the `pathWay` argument corresponding to the path to the folder containing the ris files with the following code:
 ```
 #library revtools
-require(revtools)
+if (!require("revtools", quietly = TRUE))
+            install.packages("revtools")
 #source the EasyBib function
 source(paste0("https://raw.githubusercontent.com/agodmer/Prisma_Method/main/Function_easy_bib.R"))
 #use the EasyBib function 
