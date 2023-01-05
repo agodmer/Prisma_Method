@@ -20,12 +20,12 @@ source(paste0("https://raw.githubusercontent.com/agodmer/Prisma_Method/main/Func
 #use the EasyBib function 
 EasyBib(pathWay = "~/RIS_files")
 ```
-# 4. Tutorial
+## 4. Tutorial
 <p align="center">
   <img src="Tutorial/Tuto_prisma-1.png" width="650" height="1100">
 </p>
 
-# 5. References
+## 5. References
 [1] [PRISMA](https://prisma-statement.org//)  
 [2] Westgate MJ (2019). “revtools: An R package to support article screening for evidence synthesis.” Research Synthesis Methods. doi:10.1002/jrsm.1374.  
 [3] [bibtext](https://www.bibtex.com/c/bibtex-to-ris-converter/)
